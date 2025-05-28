@@ -1,11 +1,13 @@
-package com.usuarios.controller;
+package com.GestionUsuarios.controller;
 
-import com.usuarios.model.EmpleadoVentas;
-import com.usuarios.service.EmpleadoVentasService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import com.GestionUsuarios.model.EmpleadoVentas;
+import com.GestionUsuarios.service.EmpleadoVentasService;
+
 import java.util.List;
 
 @RestController

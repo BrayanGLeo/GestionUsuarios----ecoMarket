@@ -1,11 +1,13 @@
-package com.usuarios.service;
+package com.GestionUsuarios.service;
 
-import com.usuarios.model.EmpleadoVentas;
-import com.usuarios.repository.EmpleadoVentasRepository;
-import com.usuarios.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.GestionUsuarios.exception.ResourceNotFoundException;
+import com.GestionUsuarios.model.EmpleadoVentas;
+import com.GestionUsuarios.repository.EmpleadoVentasRepository;
+
 import java.util.List;
 
 @Service

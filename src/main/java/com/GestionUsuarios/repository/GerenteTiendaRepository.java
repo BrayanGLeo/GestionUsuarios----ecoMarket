@@ -1,8 +1,10 @@
-package com.usuarios.repository;
+package com.GestionUsuarios.repository;
 
-import com.usuarios.model.GerenteTienda;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.GestionUsuarios.model.GerenteTienda;
+
 import java.util.Optional;
 
 @Repository
